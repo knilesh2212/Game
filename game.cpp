@@ -3,7 +3,9 @@ using namespace std;
 
 int main() {
     
-    cout << " |*| Welcome to my Game |*| \n Hit Enter to continue...\n";
+  cout << "---------------------------\n";
+  cout << "| (*Welcome to my Game*)  |\n| Hit Enter to continue...|\n";
+  cout << "---------------------------\n";
     
     while (cin.get() != '\n');
     
@@ -34,12 +36,17 @@ int main() {
 
     while (cin.get() != '\n');
     
-    cout << "The final result is -> " << finalResult <<" ?\n";
-
-    cout << "Thanks to play my Game\n";
+    cout << "-----------------------------\n";
+    cout << "( The final result is -> " << finalResult <<"  )\n";
+    cout << "-----------------------------\n";
 
     cout << endl;
-    cout << "Press 'Enter' to exit Game";
+    cout << " *Thanks to play my Game*\n";
+
+    cout << endl;
+    cout << "--------------------------------\n";
+    cout << "| (Press 'Enter' to exit Game) |\n";
+    cout << "--------------------------------";
     while (cin.get() != '\n');
 }
 
