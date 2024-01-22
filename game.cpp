@@ -9,7 +9,7 @@ int main() {
     
     while (cin.get() != '\n');
     
-    int chosenNumber, doubledNumber, addedTen, dividedByTwo, finalResult;
+    int chosenNumber, doubledNumber, addedNum, dividedByTwo, finalResult;
 
     cout << "Choose any number : ";
     cin >> chosenNumber;
@@ -21,12 +21,12 @@ int main() {
 
     while (cin.get() != '\n');
 
-    addedTen = doubledNumber + 10;
+    addedNum = doubledNumber + 10;
     cout << "Add 10 to the doubled number ";
 
     while (cin.get() != '\n');
 
-    dividedByTwo = addedTen / 2;
+    dividedByTwo = addedNum / 2;
     cout << "Divide the result by 2 ";
 
     while (cin.get() != '\n');
